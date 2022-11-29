@@ -60,7 +60,14 @@ const Home = () => {
           </div>
           <div className="extension-text">
             Like this tool?
-            <a href=""> Download the Extension</a>
+            <a
+              href="https://github.com/mattiapomelli/gpt3-writer-extension-starter"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Download the Extension
+            </a>
           </div>
           {/* New code I added here */}
           {apiOutput && (
