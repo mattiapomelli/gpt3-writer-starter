@@ -172,7 +172,7 @@ textarea {
 .generate-button {
     place-content: flex-start;
     align-items: flex-start;
-    background-color: rgb(255, 79, 18);
+    background-color: rgb(30, 52, 153);
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
@@ -365,7 +365,7 @@ textarea {
     }
 
     .header-title h1 {
-        font-size: 50px;
+        font-size: 46px;
     }
 
     .header-subtitle h2 {
@@ -412,4 +412,19 @@ textarea {
     100% {
         transform: rotate(360deg);
     }
+}
+
+.extension-text {
+    font-size: 20px;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+}
+
+.extension-text a {
+    color: rgb(45, 76, 213);
+    text-decoration: none;
+}
+.extension-text a:hover {
+    text-decoration: underline;
 }
