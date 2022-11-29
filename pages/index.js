@@ -61,7 +61,7 @@ const Home = () => {
           <div className="extension-text">
             Like this tool?
             <a
-              href="https://github.com/mattiapomelli/gpt3-writer-extension-starter"
+              href="https://github.com/mattiapomelli/quickpaper-extension.git"
               target="_blank"
               rel="noopener noreferrer"
             >
