@@ -7,7 +7,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const basePromptPrefix = `
-Write me a detailed table of contents for a crypto project's whitepaper with the title below.
+Write me a detailed table of contents for a crypto project's whitepaper with the title below. Make sure to include all the sections you would expect to find in a whitepaper.
 
 Title:
 `;
