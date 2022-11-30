@@ -42,7 +42,7 @@ const Home = () => {
         <div className="prompt-container">
           <textarea
             className="prompt-box"
-            placeholder="E.g. A protocol to pay for taxes with crypto"
+            placeholder="E.g. A platform for paying salaries to employees with crypto"
             value={userInput}
             onChange={(event) => setUserInput(event.target.value)}
           />
